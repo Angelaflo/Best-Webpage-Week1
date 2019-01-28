@@ -1,0 +1,30 @@
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Using Element IDs</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<!-- 1st Column -->
+		<div class="col rams-blue center-content" id="rams-column">
+			<img src="images/pink_palace.gif" class="restrict-img-size" onclick="allOpaque(this)" id="rams"/>
+		</div>
+		
+		<!-- 2nd Column -->
+		<div class="col center-content" onClick="showTrophy(this)">
+			<img src="images/pink_sign.jpg" class="restrict-img-size" id="ball"/>
+		</div>
+		
+		<!-- 3rd Column -->
+		<div class="col pats-silver center-content" id="pats-column">
+			<img src="images/front_pink.jpg" class="restrict-img-size" onclick="removeColor(this)"id="pats"/>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+	
+</html>
